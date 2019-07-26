@@ -51,8 +51,8 @@ function abrirArquivo(nome, item){
   }else{
 
     try {
-      //shell.openItem(path.join(__dirname, '../ARQUIVOS/'+nome))
-      shell.openItem(path.join(process.env.PORTABLE_EXECUTABLE_DIR,'/ARQUIVOS/'+nome))
+      shell.openItem(path.join(__dirname, '../ARQUIVOS/'+nome))
+      //shell.openItem(path.join(process.env.PORTABLE_EXECUTABLE_DIR,'/ARQUIVOS/'+nome))
     } 
     catch (error) {
       console.log("erro ao abrir arquivo "+error)
