@@ -1,0 +1,88 @@
+body{
+    overflow: hidden;
+    aborder-radius: 15px;
+    background-color: rgba(255, 255, 255, 0)
+}
+
+body > div{
+    background-color: #fbfdff;
+    aborder-radius: 0 0 15px 15px
+}
+
+/* NAVBAR */
+nav{
+    -webkit-app-region: drag; 
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+    aborder-radius: 15px 15px 0px 0px;
+}
+
+nav div{
+    display: inline;
+}
+
+nav div a{
+    -webkit-app-region: no-drag; 
+    color: rgb(150, 150, 150);
+    cursor: default;
+}
+
+nav div #fechar:hover{
+    color: tomato;
+}
+
+nav div #minimizar:hover{
+    color: gold;
+}
+
+nav ul{
+    -webkit-app-region: no-drag;
+}
+
+nav ul li a{
+    font-family: "Lato",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+
+/* CONTEUDO GERAL */
+.conteudo{
+    overflow: auto;
+    max-height: 595px; 
+    /*margin-top: 55px;*/
+}
+
+/* PG INICIAL */
+#inicio{
+    padding: 5px 10px;
+    height: 595px
+}
+
+
+/* INDICE DE ARTIGOS */
+#bg-titulo{
+    margin-top: 0px;
+    height: 150px; 
+    background-image: url(sources/imgs/bg-centro.png)
+}
+
+#bg-titulo h1{
+    padding-left: 45px; 
+    padding-top: 100px
+}
+
+.material{
+    padding: 50px 100px;
+}
+
+.form-group{
+    margin-bottom: 10px;
+    margin-left: inherit;
+    margin-right: inherit; 
+}
+
+.desabilitado {
+    color: currentColor;
+    cursor: default;
+    opacity: 0.5;
+    text-decoration: none;
+  }

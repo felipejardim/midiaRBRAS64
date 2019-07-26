@@ -1,0 +1,56 @@
+[
+ {
+   "Tipo": "Conferência",
+   "Arquivo": "C0.pdf",
+   "Título": "Conferência Abertura – Opportunities and Challenges in Statistical Analysis of High-Throughput Phenotyping Data in Livestock ",
+   "Conferencista": "Guilherme Jordão de Magalhães Rosa - University of Wisconsin/ Madison, Estados Unidos"
+ },
+ {
+   "Tipo": "Conferência",
+   "Arquivo": "C1.pdf",
+   "Título": "C1 – Coefficient of Determination (R2) for Generalized Linear Mixed Models",
+   "Conferencista": "Hans-Peter Piepho – University of Hohenheim, Alemanha"
+ },
+ {
+   "Tipo": "Conferência",
+   "Arquivo": "C2.pdf",
+   "Título": "C2 – Blending Bayesian and Fisherian Tools to Build Optimal Significance Tests",
+   "Conferencista": "Carlos Alberto de Bragança Pereira – USP, Brasil"
+ },
+ {
+   "Tipo": "Conferência",
+   "Arquivo": "C3.pdf",
+   "Título": "C3 – Modelos mistos na experimentação agropecuária, principais delineamentos e aplicação em medidas repetida",
+   "Conferencista": "Euclides Braga Malheiros – UNESP/Jaboticabal, Brasil"
+ },
+ {
+   "Tipo": "Conferência",
+   "Arquivo": "C4.pdf",
+   "Título": "C4 – Generalized additive models for assessing the impact of weather on hospital admissions",
+   "Conferencista": "Giovani Loiola da Silva – IST/ULISBOA, Portugal"
+ },
+ {
+   "Tipo": "Conferência",
+   "Arquivo": "C5.pdf",
+   "Título": "C5 – Unifying Frequentist and Bayesian Tests",
+   "Conferencista": "Ivair Ramos Silva – UFOP, Brasil"
+ },
+ {
+   "Tipo": "Conferência",
+   "Arquivo": "C6.pdf",
+   "Título": "C6 – Estimating animal abundance from passive acoustic data: where we are and what can statistics do for us?",
+   "Conferencista": "Tiago André Lamas Oliveira Marques – University of St Andrews, Escócia"
+ },
+ {
+   "Tipo": "Conferência",
+   "Arquivo": "C7.pdf",
+   "Título": "C7 – Random changepoint segmented regression with smooth transition: an example with lateral amyotrophic sclerosis data",
+   "Conferencista": "Julio Singer – USP, Brasil"
+ },
+ {
+   "Tipo": "Conferência",
+   "Arquivo": "C8.pdf",
+   "Título": "C8 – Statistical quantitative genetic modeling for image-based high-throughput phenotyping data",
+   "Conferencista": "Gota Morota – Virginia Polytechnic Institute and State University, Estados Unidos"
+ }
+]

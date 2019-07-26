@@ -1,0 +1,62 @@
+[
+ {
+   "Tipo": "Minicurso",
+   "Arquivo": "M1.pdf",
+   "Título": "M1 – Análise de dados sensoriais no software R - Carga horária: 2h",
+   "Conferencista": "Eric Batista Ferreira – Unifal/MG, Brasil "
+ },
+ {
+   "Tipo": "Minicurso",
+   "Arquivo": "M2.pdf",
+   "Título": "M2 – gExpDes – Interface Gráfica do ExpDes - Carga horária: 2h",
+   "Conferencista": "Crysttian Arantes Paixão– UFSC, Brasil  "
+ },
+ {
+   "Tipo": "Minicurso",
+   "Arquivo": "M3.pdf",
+   "Título": "M3 – Introduction to statistical quantitative genetics - Carga horária: 2h",
+   "Conferencista": "Gota Morota – Virginia Polytechnic Institute and State University, Estados Unidos"
+ },
+ {
+   "Tipo": "Minicurso",
+   "Arquivo": "M4.pdf",
+   "Título": "M4 – Statistical methods for the quantitative genetic analysis of high-throughput phenotyping data - Carga horária: 2h",
+   "Conferencista": "Gota Morota – Virginia Polytechnic Institute and State University, Estados Unidos"
+ },
+ {
+   "Tipo": "Minicurso",
+   "Arquivo": "M5.pdf",
+   "Título": "M5 – Modelos gráficos e análise de dados observacionais - Carga horária: 4h",
+   "Conferencista": "Guilherme Jordão de Magalhães Rosa – University of Wisconsin/ Madison, Estados Unidos"
+ },
+ {
+   "Tipo": "Minicurso",
+   "Arquivo": "M6.pdf",
+   "Título": "M6 – An introduction to distance sampling - Carga horária: 4h",
+   "Conferencista": "Tiago André Lamas Oliveira Marques – University of St Andrews, Escócia"
+ },
+ {
+   "Tipo": "Minicurso",
+   "Arquivo": "M7.pdf",
+   "Título": "M7 – Análise de dados de experimentos: a análise de variância  é sempre a melhor escolha? - Carga horária: 4h",
+   "Conferencista": "Cristiano Nunes Nesi – EPAGRI, Brasil e Simone Silmara Werner – EPAGRI, Brasil       "
+ },
+ {
+   "Tipo": "Minicurso",
+   "Arquivo": "M8.pdf",
+   "Título": "M8 – Estatística espacial para dados observados em redes de riachos e afluentes - Carga horária: 4h",
+   "Conferencista": "Júlio César Pereira – UFSCAR, Brasil e Julio César Jut Solórzan – UEMS, Brasil"
+ },
+ {
+   "Tipo": "Minicurso",
+   "Arquivo": "M9.pdf",
+   "Título": "M9 – Teoria da Resposta ao Item: modelos, conceitos e aplicações - Carga horária: 4h",
+   "Conferencista": "Dalton Francisco Andrade – UFSC, Brasil e Adriano Ferreti Borgatto – UFSC, Brasil"
+ },
+ {
+   "Tipo": "Minicurso",
+   "Arquivo": "M10.pdf",
+   "Título": "M10 – Introdução à metodologia de superfície de respota e modelos de mistura no R - Carga horária: 4h",
+   "Conferencista": "Gilberto Rodrigues Liska, Unipampa, Brasil"
+ }
+]

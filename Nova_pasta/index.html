@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>RBRAS 64</title>
+    
+    
+    <link rel="stylesheet" href="sources/css/bootstrap.css">
+
+    <link href="sources/icons/css/all.min.css" rel="stylesheet"> 
+
+
+    <script>window.$ = window.jQuery = require('jquery')</script>
+    <script src="sources/js/bootstrap.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">  
+      <div>
+          <a id="fechar" href="#"><span class="fas fa-times-circle text-sm-left"></span></a>
+          <a id="minimizar" href="#"><span class="fas fa-minus-circle text-sm-left"></span></a>
+      </div>
+      <h1 class="navbar-brand mb-0 h1 text-sm-left">&nbsp RBRAS 64</h1>
+      
+
+      <ul class="navbar-nav ml-auto">
+        <li id="navIni"class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
+        <li id="navArt" class="nav-item"><a href="#" class="nav-link">Trabalhos Cientificos</a> </li>
+        <li id="navConf" class="nav-item"><a href="#" class="nav-link">Conferências</a> </li>
+        <li id="navCur" class="nav-item"><a href="#" class="nav-link">Mini Cursos</a> </li>
+        <li id="navSes" class="nav-item"><a href="#" class="nav-link">Sessões Temáticas</a> </li>
+      </ul>
+        
+    </nav>
+<script>
+  $ = require("jquery");
+  $('#sobreModal').on('shown.bs.modal', function () {
+    $('#sobreLink').trigger('focus')
+  })
+</script>
+    <div id="inicio" class="conteudo" style="overflow: hidden">
+      <figure class="figure">
+        <img src="sources/imgs/banner.jpg" class="img-fluid">
+        <figcaption class="figcaption text-center">
+          <a href="javascript:abrirArquivo('Livreto.pdf')" class="btn btn-outline-info" astyle="margin-top: 25px" title="Os arquivos estão no formato PDF e precisam de um leitor específico para isso. Normalmente o seu navegador já suporta esses arquivos">Conheça a programação do evento</a><br>
+          <a href="" id="sobreLink" class="text-info" data-toggle="modal" data-target="#sobreModal">Sobre</a>
+          
+          <div class="modal fade" id="sobreModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Sobre este software</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p style="text-align: justify">Software feito para facilitar o acesso ao conteudo da midia dada pela organização do RBRAS.
+                     <br> Feito por Felipe Lima Jardim</p>
+                      <a href="javascript:shell.openExternal('https://github.com/felipejardim/midiaRBRAS64')" class="badge badge-dark" style="font-size: 20px"><span class="fab fa-github-square "></span> acesse aqui o repositório</a> 
+                  </div>
+                </div>
+              </div>
+            </div>
+        </figcaption>
+      </figure>
+    </div>
+
+    <div id="artigos" class="conteudo">
+      <div id="bg-titulo">
+        <h1>Indice de Artigos</h1>
+      </div>
+  
+      <div class="container-fluid material">
+        
+        <div class="form-group row">
+          <input type="text" name="search" id="pesquisa" class="form-control col-sm-9" placeholder="Pesquisar">
+          <select class="form-control col-sm-3" name="Tipo" id="modalidade" label="Modalidade">
+            <option selected>Todas as Modalidades</option>
+            <option>Oral</option>
+            <option>Poster</option>
+            <option>Prêmio Doutorado</option>
+            <option>Prêmio Iniciação Científica</option>
+          </select>
+        </div>
+        <table class="table table-striped table-bordered table-hover">
+          <thead class="thead-light">
+            <tr>
+              <th>Título</th>  <th>Autor</th>  <th colspan="3">Downloads <a href="#"><span title="Os arquivos estão no formato PDF e precisam de um leitor específico para isso. Normalmente o seu navegador já suporta esses arquivos" class="fas fa-info-circle"></span></a></th>
+            </tr>
+        </thead>
+        <tbody id="tabela-artigos"></tbody>
+        </table>
+      </div>
+
+    </div>    
+    <div id="conferencia" class="conteudo">
+      <div id="bg-titulo">
+        <h1>Conferências</h1>
+      </div>
+    
+      <div class="container-fluid material">
+        <table class="table table-striped table-bordered table-hover">
+          <thead class="thead-light">
+            <tr>
+              <th>Título <a href="#"><span title="Os arquivos estão no formato PDF e precisam de um leitor específico para isso. Normalmente o seu navegador já suporta esses arquivos" class="fas fa-info-circle"></span></a></th>  <th style="width: 300px;">Conferencista</th>
+            </tr>
+          </thead>
+          <tbody id="tabela-conferencias"></tbody>
+        </table>
+      </div>
+
+    </div>
+
+    <div id="mini-cursos" class="conteudo">
+      <div id="bg-titulo">
+        <h1>Mini Cursos</h1>
+      </div>
+    
+      <div class="container-fluid material">
+        <table class="table table-striped table-bordered table-hover">
+          <thead class="thead-light">
+            <tr>
+              <th>Título <a href="#"><span title="Os arquivos estão no formato PDF e precisam de um leitor específico para isso. Normalmente o seu navegador já suporta esses arquivos" class="fas fa-info-circle"></span></a></th>  <th style="width: 300px;">Professor</th>
+            </tr>
+          </thead>
+          <tbody id="tabela-minicursos"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div id="sessoes" class="conteudo">
+        <div id="bg-titulo">
+          <h1>Sessões Temáticas</h1>
+        </div>
+      
+        <div class="container-fluid material">
+          <table class="table table-striped table-bordered table-hover">
+            <thead class="thead-light">
+              <tr>
+                <th>Título <a href="#"><span title="Os arquivos estão no formato PDF e precisam de um leitor específico para isso. Normalmente o seu navegador já suporta esses arquivos" class="fas fa-info-circle"></span></a></th>  <th style="width: 300px;">Participantes</th>
+              </tr>
+            </thead>
+            <tbody id="tabela-sessoes"></tbody>
+          </table>
+        </div>
+      </div>
+
+    <script src="sources/js/criaTabela.js"></script>
+    <script src="sources/js/nav-control.js"></script>
+    
+  </body>
+</html>
